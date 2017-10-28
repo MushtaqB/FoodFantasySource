@@ -1,0 +1,63 @@
+{
+  "local": {
+    "username": "root",
+    "password": "123",
+    "database": "magadeer",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    },
+    "define": {
+      "timestamps": true,
+      "underscored": true
+    }
+  },
+  "development": {
+    "username": "user",
+    "password": "user123",
+    "database": "magadeer",
+    "host": "10.135.73.117",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    },
+    "define": {
+      "timestamps": true,
+      "underscored": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "magadeer",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    },
+    "define": {
+      "timestamps": true,
+      "underscored": true
+    }
+  },
+  "production": {
+    "username": "magadeeruser",
+    "password": "magadeeruser123",
+    "database": "magadeer",
+    "host": "10.135.3.134",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    },
+    "define": {
+      "timestamps": true,
+      "underscored": true
+    },
+    "pool": {
+      "max": 190,
+      "min": 100,
+      "idle": 60000
+    }
+  }
+}
